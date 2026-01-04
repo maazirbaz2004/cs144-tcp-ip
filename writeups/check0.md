@@ -1,38 +1,28 @@
 Checkpoint 0 Writeup
 ====================
 
-My name: [your name here]
+My name: [Mohib]
 
-My SUNet ID: [your sunetid here]
+My SUNet ID: [23L-0650]
 
-I collaborated with: [list sunetids here]
+I collaborated with: [23L-0728]
 
 I would like to credit/thank these classmates for their help: [list sunetids here]
 
 This lab took me about [n] hours to do. I [did/did not] attend the lab session.
 
-My secret code from section 2.1 was: [code here]
+My secret code from section 2.1 was: From the server apache, the code given was: 816962 and content was of length 11.
 
 I was surprised by or edified to learn that: [describe]
 
-Describe ByteStream implementation. [Describe data structures and
-approach taken. Describe alternative designs considered or tested.
-Describe benefits and weaknesses of your design compared with
-alternatives -- perhaps in terms of simplicity/complexity, risk of
-bugs, asymptotic performance, empirical performance, required
-implementation time and difficulty, and other factors. Include any
-measurements if applicable.]
+===============================S
+Brief description of work done:
+===============================
+First implemented the get_url function in webget.cc which basically sends a request to HTTP and prints out the server response.
+After that, edited the byte stream files (i.e byte_stream.cc & byte_stream.hh) by adding a few attributes to the ByteStream class and then
+implementing the functions in the .cc file. For example the push function in writer and the pop function in the reader. 
+Also verified that everything was working by running the test cases (check_webget & check0). All were passed!
 
-Implementation Challenges:
-[]
-
-Remaining Bugs:
-[]
-
-- If applicable: I received help from a former student in this class,
-  another expert, or a chatbot or other AI system (e.g. ChatGPT,
-  Gemini, Claude, etc.), with the following questions or prompts:
-  [please list questions/prompts]
 
 - Optional: I had unexpected difficulty with: [describe]
 
@@ -42,4 +32,3 @@ Remaining Bugs:
 
 - Optional: I contributed a new test case that catches a plausible bug
   not otherwise caught: [provide Pull Request URL]
-
